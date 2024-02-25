@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "nosqlweb8"
+version = "0.1.0"
+description = ""
+authors = ["IVadymMarchenko <topim31@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+mongoengine = "^0.27.0"
+redis = "^5.0.1"
+redis-lru = "^0.1.2"
+faker = "^23.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
